@@ -1,0 +1,5 @@
+### requirements
+
+```
+brew install exiftool
+```
