@@ -22,7 +22,7 @@ function image {
 
 case "$mimetype" in
 	image/*)
-		image "${FILE_PATH}" 
+		image "${FILE_PATH}"
 		;;
 	*)
 		kitty +kitten icat \

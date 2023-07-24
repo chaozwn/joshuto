@@ -180,6 +180,9 @@ handle_mime() {
             cat "${FILE_PATH}" && exit 0
             exit 1 ;;
 
+        image/png | image/jpeg)
+            exit 4 ;;
+
             ## DjVu
         image/vnd.djvu)
             ## Preview as text conversion (requires djvulibre)
